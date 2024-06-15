@@ -27,7 +27,6 @@ def google_search(query, api_key, cse_id, num_results=10):
     return response.json()  # Return the response in JSON format
 
 
-
 def main():
     """
     Main function to perform a Google search for "AI topics" and print the results.
@@ -43,6 +42,10 @@ def main():
         print(f"Title: {item['title']}")       # Print the title of the search result
         print(f"Snippet: {item['snippet']}")   # Print the snippet of the search result
         print(f"Link: {item['link']}\n")       # Print the link of the search result
+
+
+results
+
 
 if __name__ == "__main__":
     main()
