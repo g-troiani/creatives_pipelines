@@ -26,7 +26,7 @@ def google_search(query, api_key, cse_id, num_results=10):
     response = requests.get(url, params=params)  # Make the API request
     return response.json()  # Return the response in JSON format
 
-
+#comment
 def main():
     """
     Main function to perform a Google search for "AI topics" and print the results.
